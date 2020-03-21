@@ -12,11 +12,7 @@ public class HashNode {
 	String key;
 	Cylinder value;
 	
-	//constructors
-	public HashNode() {
-		key = "0";
-		value = new Cylinder();
-	}
+	//constructor
 	public HashNode(String k, Cylinder v) {
 		this.key = k;
 		this.value = v;
