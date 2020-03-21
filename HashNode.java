@@ -11,8 +11,6 @@
 public class HashNode {
 	String key;
 	Cylinder value;
-	//reference to next node
-	HashNode next;
 	
 	//constructors
 	public HashNode() {
